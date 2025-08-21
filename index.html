@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <title>Jãoproductions</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="topbar">PCstyles</div>
+  <div class="menu" onclick="toggleMenu()">☰</div>
+  <div id="sideMenu" class="side-menu">
+    <a href="#">Início</a>
+    <a href="#">Sobre</a>
+    <a href="#">Contato</a>
+  </div>
+  <div class="content">
+    <img src="png2.png" alt="PC">
+    <div class="overlay">
+      <h1>Jãoproductions</h1>
+      <h3 class="subtext">Redesign concept</h3>
+      <button class="btn">découvrir</button>
+    </div>
+  </div>
+  <script>
+    function toggleMenu() {
+      document.getElementById("sideMenu").classList.toggle("active");
+    }
+  </script>
+</body>
+</html>
+
